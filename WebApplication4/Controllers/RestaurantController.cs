@@ -61,7 +61,7 @@ namespace WebApplication4.Controllers
 
             if (string.IsNullOrEmpty(model.name))
             {
-                errors.Add("tên nhà hàng là trường bắt buộc");
+                errors.Add("Tên nhà hàng là trường bắt buộc");
             }
 
             if (errors.Errors.Count == 0)
